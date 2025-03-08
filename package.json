@@ -9,19 +9,35 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ai-sdk/openai": "^1.2.1",
+    "@mastra/client-js": "^0.1.6",
+    "@mastra/core": "^0.5.0-alpha.9",
+    "ai": "^4.1.54",
+    "next": "15.2.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.2.1"
+    "zod": "^3.24.2"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20.17.23",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
+    "buffer": "^6.0.3",
     "eslint": "^9",
     "eslint-config-next": "15.2.1",
-    "@eslint/eslintrc": "^3"
-  }
+    "events": "^3.3.0",
+    "mastra": "^0.2.9-alpha.9",
+    "stream-browserify": "^3.0.0",
+    "tailwindcss": "^4",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "util": "^0.12.5"
+  },
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
